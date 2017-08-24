@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F86A04481F4F3FB6009CA235 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A04471F4F3FB6009CA235 /* BorderButton.swift */; };
 		F8BBF6C41F495ED000CFDBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BBF6C31F495ED000CFDBFF /* AppDelegate.swift */; };
 		F8BBF6C61F495ED000CFDBFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BBF6C51F495ED000CFDBFF /* ViewController.swift */; };
 		F8BBF6C91F495ED000CFDBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BBF6C71F495ED000CFDBFF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F86A04471F4F3FB6009CA235 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		F8BBF6C01F495ED000CFDBFF /* Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BBF6C31F495ED000CFDBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8BBF6C51F495ED000CFDBFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F86A04461F4F3F77009CA235 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F86A04471F4F3FB6009CA235 /* BorderButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F8BBF6B71F495ECF00CFDBFF = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		F8BBF6C21F495ED000CFDBFF /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				F86A04461F4F3F77009CA235 /* Views */,
 				F8BBF6C31F495ED000CFDBFF /* AppDelegate.swift */,
 				F8BBF6C51F495ED000CFDBFF /* ViewController.swift */,
 				F8BBF6C71F495ED000CFDBFF /* Main.storyboard */,
@@ -137,6 +148,7 @@
 			files = (
 				F8BBF6C61F495ED000CFDBFF /* ViewController.swift in Sources */,
 				F8BBF6C41F495ED000CFDBFF /* AppDelegate.swift in Sources */,
+				F86A04481F4F3FB6009CA235 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
