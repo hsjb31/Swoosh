@@ -13,6 +13,7 @@
 		F8BBF6C91F495ED000CFDBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BBF6C71F495ED000CFDBFF /* Main.storyboard */; };
 		F8BBF6CB1F495ED000CFDBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BBF6CA1F495ED000CFDBFF /* Assets.xcassets */; };
 		F8BBF6CE1F495ED000CFDBFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BBF6CC1F495ED000CFDBFF /* LaunchScreen.storyboard */; };
+		F8F753C81F51CBAE00232DC3 /* SkillsVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F753C71F51CBAE00232DC3 /* SkillsVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F8BBF6CA1F495ED000CFDBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8BBF6CD1F495ED000CFDBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8BBF6CF1F495ED000CFDBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F753C71F51CBAE00232DC3 /* SkillsVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				F8BBF6CA1F495ED000CFDBFF /* Assets.xcassets */,
 				F8BBF6CC1F495ED000CFDBFF /* LaunchScreen.storyboard */,
 				F8BBF6CF1F495ED000CFDBFF /* Info.plist */,
+				F8F753C71F51CBAE00232DC3 /* SkillsVCViewController.swift */,
 			);
 			path = Swoosh;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8BBF6C61F495ED000CFDBFF /* ViewController.swift in Sources */,
+				F8F753C81F51CBAE00232DC3 /* SkillsVCViewController.swift in Sources */,
 				F8BBF6C41F495ED000CFDBFF /* AppDelegate.swift in Sources */,
 				F86A04481F4F3FB6009CA235 /* BorderButton.swift in Sources */,
 			);
