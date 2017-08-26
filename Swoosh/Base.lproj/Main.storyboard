@@ -16,10 +16,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="36" y="70.614692653673174"/>
         </scene>
-        <!--SkillsVC View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="rv2-pv-DCz">
             <objects>
-                <viewController id="R7x-uK-quw" customClass="SkillsVCViewController" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="R7x-uK-quw" customClass="LeagueVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1VH-M4-lBX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,7 +213,7 @@
                                 <rect key="frame" x="6" y="15" width="29" height="24"/>
                                 <state key="normal" image="backButton"/>
                                 <connections>
-                                    <segue destination="vB7-c9-lsC" kind="unwind" unwindAction="unwindFromCategoryVCWithUnwindSegues:" id="npc-on-IV2"/>
+                                    <segue destination="vB7-c9-lsC" kind="unwind" unwindAction="unwindCategoryVCWithUnwindSegues:" id="TPU-uL-hzU"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Nlw-aI-cZO">
