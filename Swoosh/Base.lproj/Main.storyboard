@@ -50,7 +50,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="R7x-uK-quw" kind="show" id="y3S-gB-Fqz"/>
+                                    <action selector="onNextTappedToLeague:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ejw-Nm-ZEJ"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="lhL-qo-lvf">
@@ -89,6 +89,7 @@
                     <connections>
                         <outlet property="bgImg" destination="in4-CG-NDp" id="yMj-3Y-Llp"/>
                         <outlet property="swoosh" destination="lhL-qo-lvf" id="dkn-wy-Rgq"/>
+                        <segue destination="R7x-uK-quw" kind="show" identifier="LeagueVCSegues" id="J4z-Yg-KyM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -161,7 +162,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XfU-r8-5wC" kind="show" id="DCn-Lj-uJp"/>
+                                    <action selector="onNextTrapped:" destination="R7x-uK-quw" eventType="touchUpInside" id="f7r-bW-bdu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytS-Fa-1k4">
@@ -192,6 +193,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UB0-zk-pv0"/>
                     </view>
+                    <connections>
+                        <segue destination="XfU-r8-5wC" kind="show" identifier="CategoryVCSegues" id="mXA-hh-7oK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yU0-aB-Uqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="U2W-3b-uWd" userLabel="Exit" sceneMemberID="exit"/>
@@ -262,9 +266,6 @@
                                 <state key="normal" title="Finish">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Uf3-ft-IfT"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

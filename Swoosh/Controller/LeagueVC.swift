@@ -10,15 +10,25 @@ import UIKit
 
 class LeagueVC: UIViewController {
 
+    
+    
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func unwindCategoryVC(unwindSegues : UIStoryboardSegue){
+//    @IBAction func unwindCategoryVC(unwindSegues : UIStoryboardSegue){
+    
         
-        
+  //  }
+    
+    
+    @IBAction func onNextTrapped(_ sender: Any) {
+        performSegue(withIdentifier: "CategoryVCSegues", sender: self)
     }
+    
 
 }

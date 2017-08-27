@@ -12,7 +12,7 @@ class WelcomeVC: UIViewController {
 
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 /*
@@ -30,12 +30,15 @@ class WelcomeVC: UIViewController {
 
     
     
-    @IBAction func unwindFromSkillVC(unwindSegues : UIStoryboardSegue){
-        
+//    @IBAction func unwindFromSkillVC(unwindSegues : UIStoryboardSegue){
+//
+//    }
+//
+    
+    
+    @IBAction func onNextTappedToLeague(_ sender: Any) {
+        performSegue(withIdentifier: "LeagueVCSegues", sender: self)
     }
-    
-    
-    
    
 
 }
