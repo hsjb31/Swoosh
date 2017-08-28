@@ -11,10 +11,11 @@ import UIKit
 class CategoryVC: UIViewController {
 
    
+    var player : Player!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        super.viewDidLoad()        
+        print(player.desiredLeague)
     }
 
     

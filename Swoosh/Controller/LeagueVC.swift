@@ -55,5 +55,21 @@ class LeagueVC: UIViewController {
         nectBTn.isEnabled = true
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+        if let categoryVC = segue.destination as? CategoryVC{
+            categoryVC.player = player
+        }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 }
