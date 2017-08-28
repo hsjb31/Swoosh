@@ -24,22 +24,15 @@ class WelcomeVC: UIViewController {
         
         bgImg.frame = view.frame;
  */
-        
-    
     }
 
-    
-    
 //    @IBAction func unwindFromSkillVC(unwindSegues : UIStoryboardSegue){
 //
 //    }
 //
-    
-    
+ 
     @IBAction func onNextTappedToLeague(_ sender: Any) {
         performSegue(withIdentifier: "LeagueVCSegues", sender: self)
     }
-   
-
 }
 

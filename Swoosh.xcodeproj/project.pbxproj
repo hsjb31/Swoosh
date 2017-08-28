@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F86A04481F4F3FB6009CA235 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A04471F4F3FB6009CA235 /* BorderButton.swift */; };
+		F891AC1C1F5303900036F2E3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F891AC1B1F5303900036F2E3 /* Player.swift */; };
 		F8BBF6C41F495ED000CFDBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BBF6C31F495ED000CFDBFF /* AppDelegate.swift */; };
 		F8BBF6C61F495ED000CFDBFF /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BBF6C51F495ED000CFDBFF /* WelcomeVC.swift */; };
 		F8BBF6C91F495ED000CFDBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BBF6C71F495ED000CFDBFF /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		F86A04471F4F3FB6009CA235 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		F891AC1B1F5303900036F2E3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		F8BBF6C01F495ED000CFDBFF /* Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BBF6C31F495ED000CFDBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8BBF6C51F495ED000CFDBFF /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		F8F753C91F51D0C900232DC3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F891AC1B1F5303900036F2E3 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				F8F753CC1F51D17400232DC3 /* CategoryVC.swift in Sources */,
 				F8BBF6C61F495ED000CFDBFF /* WelcomeVC.swift in Sources */,
 				F8BBF6C41F495ED000CFDBFF /* AppDelegate.swift in Sources */,
+				F891AC1C1F5303900036F2E3 /* Player.swift in Sources */,
 				F86A04481F4F3FB6009CA235 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
